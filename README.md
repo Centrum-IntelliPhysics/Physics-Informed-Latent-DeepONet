@@ -10,6 +10,6 @@ By embedding PDE constraints into training via automatic differentiation, our ap
 
 We validate our method on a range of high-dimensional parametric PDEs, demonstrating its accuracy, scalability, and potential for real-time inference in complex physical systems.
 
-[Schematic of the physics-informed vanilla neural operator (PI-Vanilla-NO)](https://github.com/user-attachments/files/20628450/Schematic-PIVanillaNO.pdf)
-[Schematic of our Physics-Informed Latent Neural Operator (PI-Latent-NO)](https://github.com/user-attachments/files/20628453/Schematic-PILatentNO.pdf)
+![Schematic of the physics-informed vanilla neural operator (PI-Vanilla-NO)](https://github.com/user-attachments/files/20628450/Schematic-PIVanillaNO.pdf)
+![Schematic of our Physics-Informed Latent Neural Operator (PI-Latent-NO)](https://github.com/user-attachments/files/20628453/Schematic-PILatentNO.pdf)
  
