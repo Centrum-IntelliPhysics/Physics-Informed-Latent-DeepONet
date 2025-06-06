@@ -25,9 +25,26 @@ We validate our method on a range of high-dimensional parametric PDEs, demonstra
 <p align="center"><b>Figure 2:</b> Schematic of our Physics-Informed Latent Neural Operator (PI-Latent-NO).</p>
 
 ## Results
-<img width="972" alt="Screenshot 2025-06-06 at 9 10 41 AM" src="https://github.com/user-attachments/assets/4caf0cab-665c-4ad0-bc09-9cdccdc507a8" />
-**Figure:** Comparison of the PI-Vanilla-NO and the PI-Latent-NO results for a 2D Stove-Burner  Simulation: (a) runtime per iteration (seconds/iteration), and (b) memory (MB).
+<p align="center">
+  <img width="972" alt="Screenshot 2025-06-06 at 9 10 41 AM" src="https://github.com/user-attachments/assets/4caf0cab-665c-4ad0-bc09-9cdccdc507a8" />
+</p>
+<p align="center"> Comparison of the PI-Vanilla-NO and the PI-Latent-NO results for a 2D Stove-Burner  Simulation: (a) runtime per iteration (seconds/iteration), and (b) memory (MB).
+</p>
 
 ## Data
 The labeled dataset used for ablation studies and for comparing our model's predictions with the ground truth in our paper can be found [here](https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/sgoswam4_jh_edu/Eqzr4ur3WpNIo8zT5gjuosgBWtZ8kD6ldRl-yx2741kF6A?e=2DDiqr).
 
+## Installing
+The code for examples is written in PyTorch. To clone our repository:
+```
+git clone https://Centrum-IntelliPhysics/Physics-Informed-Latent-DeepONet.git
+cd Physics-Informed-Latent-DeepONet
+```
+## Repository Overview
+This repository contains implementations and analyses for the examples described in the paper. It is organized as follows:
+* utils folder: Under this we have the key files required for forward-mode automatic differentiation, neural network architectures for the respective frameworks, as well as scripts for generating and visualizing plots.
+* Examples folder:  Each example discussed in the paper is organized into its own folder. Within these folders, you will find Jupyter notebooks titled 'a_Vanilla-NO.ipynb' and 'b_Latent-NO.ipynb'.  Additionally, comparison studies of memory usage and training runtime for two of the examples are provided in separate folders, with names starting with 'Comparison_studies'."
+* Results: Results from the computations are saved as jupyter notebooks in the respective 'results' folder of each example.  
+  
+### Citation:
+If you use this code for your research, please cite our paper [http://arxiv.org/abs/2409.13280](https://arxiv.org/pdf/2501.08428).
