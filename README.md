@@ -1,4 +1,11 @@
 # Physics-Informed-Latent-DeepONet
+[Sharmila Karumuri](https://scholar.google.com/citations?user=uY1G-S0AAAAJ&hl=en), [Lori Graham-Brady](https://scholar.google.com/citations?user=xhj8q8cAAAAJ&hl=en) and [Somdatta Goswami](https://scholar.google.com/citations?user=GaKrpSkAAAAJ&hl=en).
+
+You can find both the presentation slides and the recording of our presentation, outlining our approach and the results we achieved:
+
+Slides- [PI_Latent_NOs.pdf](https://github.com/user-attachments/files/20778869/PI_Latent_NOs.pdf)
+
+Recording- [PI_Latent_NOs.mp4](https://github.com/user-attachments/assets/9aaa582b-8629-462f-b59f-b21fe763bccf)
 
 In this work, we introduce a Physics-Informed Latent Neural Operator (PI-Latent-NO) framework that learns mappings between functions in a reduced latent space and reconstructs the solution in the original space in a purely physics-informed manner.
 
