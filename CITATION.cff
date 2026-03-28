@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+title: "Physics-Informed-Latent-DeepONet"
+message: "If you use this software, please cite both the software and the associated publication."
+type: software
+
+authors:
+  - family-names: Karumuri
+    given-names: Sharmila
+    affiliation: "Johns Hopkins University"
+  - family-names: Graham-Brady
+    given-names: Lori
+    affiliation: "Johns Hopkins University"
+  - family-names: Goswami
+    given-names: Somdatta
+    affiliation: "Johns Hopkins University"
+
+version: "1.0"
+date-released: 2026-03-28
+
+repository-code: "https://github.com/Centrum-IntelliPhysics/Physics-Informed-Latent-DeepONet"
+
+license: MIT
+
+keywords:
+  - Physics-informed neural operators
+  - Latent representations
+  - Partial differential equations
+
+abstract: >-
+  In this work, we introduce a Physics-Informed Latent Neural Operator (PI-Latent-NO) framework that learns mappings 
+  between functions in a reduced latent space and reconstructs the solution in the original space in a purely physics-informed manner.
+  Traditional physics-informed deeponets (PI-Vanilla-NO) often require heavily overparameterized architectures, leading to longer 
+  training times and convergence difficulties. To address these challenges, we propose PI-Latent-NO, an architecture featuring two 
+  coupled DeepONets trained end-to-end: (1) A Latent-DeepONet that learns a compact, low-dimensional representation of the solution, and 
+  (2) A Reconstruction-DeepONet that maps the latent representation back to the physical space. By embedding PDE constraints into training 
+  via automatic differentiation, our approach eliminates the need for labeled data and ensures physics-consistent predictions. 
+  The proposed framework is both memory and compute-efficient, exhibiting near-constant scaling with problem size and delivering 
+  significant speedups over traditional physics-informed operator models. We validate our method on a range of high-dimensional 
+  parametric PDEs, demonstrating its accuracy, scalability, and potential for real-time inference in complex physical systems.
+
+preferred-citation:
+  type: article
+  title: "Physics-informed latent neural operator for real-time predictions of time-dependent parametric PDEs"
+  authors:
+  - family-names: Karumuri
+    given-names: Sharmila
+    affiliation: "Johns Hopkins University"
+  - family-names: Graham-Brady
+    given-names: Lori
+    affiliation: "Johns Hopkins University"
+  - family-names: Goswami
+    given-names: Somdatta
+    affiliation: "Johns Hopkins University"
+  journal: "Computer Methods in Applied Mechanics and Engineering"
+  year: 2026
+  doi: "10.1016/j.cma.2025.118599"
+  url: "https://www.sciencedirect.com/science/article/pii/S0045782525008710"
